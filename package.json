@@ -1,0 +1,22 @@
+{
+  "name": "olp-node-influxdb",
+  "version": "0.0.1",
+  "description": "Node send data to influxdb",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/tobernguyen/node-red-contrib-meo-esp.git"
+	},
+  "keywords"     : [ "node-red", "meo", "esp", "nodemcu","influxdb" ],
+  "node-red"     : {
+    "version": ">=0.14.0",
+    "nodes": {
+      "meo-esp": "nodes/influxdb.js"
+    }
+  },
+  "license": "ISC"
+}
